@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Carrinho de Compras</title>
+</head>
+<body>
+    
+            <h1>Simulador de Carrinho de Compras</h1>
+            <div id="produtos">
+                <h2>Produtos Disponíveis:</h2>
+                <div>
+                    <label for="produto-nome">Nome do Produto:</label>
+                    <input type="text" id="produto-nome"><br>
+                    <label for="produto-preco">Preço do Produto:</label>
+                    <input type="number" id="produto-preco" step="0.01"><br><br>
+                    <button id="adicionar-produto">Adicionar Produto</button>
+                </div>
+            </div>
+            <div id="carrinho">
+                <h2>Seu Carrinho de Compras:</h2>
+                <ul id="itens-carrinho">
+                </ul>
+                <p>Total: R$<span id="total-carrinho">0.00</span></p>
+            </div>
+   
+        <script src="script.js"></script>
+</body>
+</html>

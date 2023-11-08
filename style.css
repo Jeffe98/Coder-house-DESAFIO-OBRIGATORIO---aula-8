@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#produtos, #carrinho {
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    width: 500px;
+    font-weight: bold;
+    font: arial;
+    color: green;
+}
+.adicionar-carrinho {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.adicionar-carrinho:hover {
+    background-color: #0056b3;
+}
+
+#carrinho{
+    border: 1px solid black;
+}
+
+#carrinho p{
+    color: red;
+    font-weight: bold;
+}
